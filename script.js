@@ -1,5 +1,4 @@
 // two variables for the human and computer score
-
 function playGame(){;
     let humanScore = 0;
     let computerScore = 0;
@@ -47,7 +46,6 @@ if (humanScore > computerScore){
     console.log("It's a tie, replay, the game to become champion!");
 }
 
-
 }
 function getHumanChoice(){
     const choices = prompt("Enter Rock, Paper, or Scissors");
@@ -55,4 +53,3 @@ function getHumanChoice(){
 }
 
 playGame();
-
